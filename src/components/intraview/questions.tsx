@@ -397,7 +397,11 @@ function ViewAnswer({
         <div className="grid grid-cols-1 md:grid-cols-4 gap-2">{areas}</div>
         <p className="text-lg font-bold">Feedback:</p>
         <p>{question.feedback}</p>
-        <p>Here's an example of how you could've answered better:</p>
+        {question.improvedAnswer && (
+          <p>
+            Here&apos;s an example of how you could&apos;ve answered better:
+          </p>
+        )}
         <p className="whitespace-break-spaces pl-5">
           {question.improvedAnswer}
         </p>

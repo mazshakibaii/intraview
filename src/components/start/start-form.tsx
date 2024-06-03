@@ -53,10 +53,10 @@ export function StartForm() {
     <div className="flex flex-col h-[calc(100dvh-65px)] w-full py-8 md:py-12">
       <div>
         <h1 className="text-3xl font-bold mb-4 text-center">
-          Let's get you started.
+          Let&apos;s get you started.
         </h1>
         <p className="text-gray-300 mb-6 text-center">
-          Enter the job description of the job you're applying for.
+          Enter the job description of the job you&apos;re applying for.
         </p>
       </div>
       <textarea
