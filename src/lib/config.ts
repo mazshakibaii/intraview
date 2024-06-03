@@ -1,3 +1,3 @@
 export default {
-  siteName: "shadcn-convex-nextjs-starter",
+  siteName: "intraview",
 }

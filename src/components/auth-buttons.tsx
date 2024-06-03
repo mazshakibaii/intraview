@@ -64,7 +64,7 @@ function UserProfileDropdown() {
         <Button
           size="default"
           variant="ghost"
-          className="!px-1 hover:!bg-slate-50 hover:shadow-sm"
+          className="!px-1 hover:!bg-secondary hover:shadow-sm"
         >
           <div className="flex items-center gap-3">
             <Avatar className="h-8 w-8">
